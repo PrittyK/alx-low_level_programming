@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - entry point for the program
  * description: returns the value of each input type
@@ -20,6 +19,5 @@ int main(void)
 	printf("size of long int: %ld  byte(s)\n", sizeof(li));
 	printf("size of a long long int: %ld byte(s)\n", sizeof(ll));
 	printf("size of a float: %ld byte(s)\n" sizeof(f));
-	
 	return (0);
 }
