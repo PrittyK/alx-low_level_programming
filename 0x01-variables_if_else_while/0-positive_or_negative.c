@@ -1,57 +1,23 @@
-#include <stdio.h>
-
 #include <stdlib.h>
-
 #include <time.h>
-
+#include <stdio.h>
 /**
- *
- *  * main - entry point
- *
- *   * Description: prints  if a number is positive or negative.
- *
- *    * Return: 0
- *
- *     */
-
+ * main - Print if the random generated number is positive or negative,Zero
+ * Return: Always 0 if success
+ */
 int main(void)
-
 {
+	int n;
 
-		int n;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 
+	if (n == 0)
+		printf("%d is zero\n", n);
+	else if (n < 0)
+		printf("%d is negative\n", n);
+	else 
+		printf("%d is positive\n", n);
 
-
-			srand(time(0));
-
-				n = rand() - RAND_MAX / 2;
-
-					if (n > 0)
-
-							{
-
-										printf("%d is positive\n", n);
-
-											}
-
-						else if (n == 0)
-
-								{
-
-											printf("%d is zero\n", n);
-
-												}
-
-							else if (n < 0)
-
-									{
-
-												printf("%d is negative\n", n);
-
-													}
-
-								return (0);
-
+	return (0);
 }
-
-
