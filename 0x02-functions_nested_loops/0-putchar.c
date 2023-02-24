@@ -1,15 +1,12 @@
 #include "main.h"
-/**
- * main - Entry point
- *
- * Description: Prints _putchar
- *
- * Return: return'0' always success
-*/
-int main(void)
 
+/**
+ * main - entry point
+ * Return: Will always be 0
+ */
+
+int main(void)
 {
-	/*call _putchar function to print single characters*/
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -19,6 +16,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-
-	return (0);
+	return(0);
 }
