@@ -1,19 +1,13 @@
-/*
- * File: 0-putchar.c 
- *
- */
-
 #include "main.h"
-
 /**
  * main - Entry point
  *
  * Description: Prints _putchar
  *
- * Return: return 0 always success
+ * Return: return'0' always success
 */
-
 int main(void)
+
 {
 	/*call _putchar function to print single characters*/
 	_putchar('_');
@@ -25,6 +19,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-	
+
 	return (0);
 }
